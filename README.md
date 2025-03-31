@@ -1,12 +1,44 @@
-# React + Vite
+ChatMate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatMate is a simple AI-powered chatbot built using React and integrated with Google's Gemini API to provide intelligent responses to user queries. This project mimics the functionality of ChatGPT but leverages Gemini for generating responses.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AI-powered responses using Google Gemini API
 
-## Expanding the ESLint configuration
+Simple and user-friendly chat interface
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with React and Vite for fast performance
+
+Easy to set up and extend
+
+
+
+Installation
+
+
+Clone the repository:
+
+git clone https://github.com/your-username/ChatMate.git
+
+Navigate to the project folder:
+
+cd ChatMate
+
+Install dependencies:
+
+npm install
+
+Add your Google Gemini API key to the environment file (.env):
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+Start the development server:
+
+npm run dev
+
+
+
+Usage
+
+Simply enter your question in the chatbox, and ChatMate will generate a response using the Google Gemini API.
